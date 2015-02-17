@@ -1,5 +1,8 @@
 function setup() {
   // put setup code here
+  var elliCanvas = createCanvas(200,200);
+  
+  elliCanvas.parent('elliCanvasDiv')
 }
 
 function draw() {
