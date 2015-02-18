@@ -7,13 +7,13 @@ function setup() {
   var elliCanvas = createCanvas(200,200);
   var screenW = screenwidth;
   elliCanvas.parent('elliCanvasDiv')
-  Img_Backtrees = loadImage("parallax-forest-back-trees.png");
+  //Img_Backtrees = loadImage("parallax-forest-back-trees.png");
 }
 
 function draw() {
   // put drawing code here
   ellipse(i, 46, 55, 55);
-  image(img, 10, 10);
+  //image(img, 10, 10);
   
 }
 
