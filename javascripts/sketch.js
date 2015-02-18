@@ -6,7 +6,7 @@ function setup() {
   // put setup code here
   var elliCanvas = createCanvas(200,200);
   elliCanvas.parent('elliCanvasDiv')
-  Img_Backtrees = loadImage("parallax-forest-back-trees.png");
+  Img_Backtrees = loadImage("javascripts/parallax-forest-back-trees.png");
 }
 
 function draw() {
