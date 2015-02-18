@@ -13,7 +13,7 @@ function setup() {
 function draw() {
   // put drawing code here
   ellipse(i, 46, 55, 55);
-  Img_Backtrees(img, 10, 10);
+  image(img, 10, 10);
   
 }
 
