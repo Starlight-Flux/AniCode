@@ -3,7 +3,7 @@ var i = 0;
 var Img_Backtrees;
 
 function preload() {
-  Img_Backtrees = loadImage("assets/parallax-forest-back-trees.png");
+  Img_Backtrees = loadImage("javascripts/assets/parallax-forest-back-trees.png");
 }
 
 function setup() {
