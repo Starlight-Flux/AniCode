@@ -2,15 +2,12 @@ var i = 0;
 
 var Img_Backtrees;
 
-function preload() {
-  Img_Backtrees = loadImage("parallax-forest-back-trees.png");
-}
-
 function setup() {
   // put setup code here
   var elliCanvas = createCanvas(200,200);
   var screenW = screenwidth;
   elliCanvas.parent('elliCanvasDiv')
+  Img_Backtrees = loadImage("parallax-forest-back-trees.png");
 }
 
 function draw() {
