@@ -1,6 +1,6 @@
 var i = 0;
 
-var Img_Backtrees;
+//var Img_Backtrees;
 
 function setup() {
   // put setup code here
